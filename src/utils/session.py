@@ -2,7 +2,7 @@ import ssl
 
 import requests
 
-from src.classes.HttpAdapter import HttpAdapter
+from ..classes.HttpAdapter import HttpAdapter
 
 
 def get_legacy_session():

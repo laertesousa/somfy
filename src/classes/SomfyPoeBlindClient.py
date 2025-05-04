@@ -3,8 +3,8 @@ import logging
 import socket
 from typing import List
 
-from src.dtos.somfy_objects import Status, Direction, Device
-from src.utils.session import get_legacy_session
+from ..dtos.somfy_objects import Status, Direction, Device
+from ..utils.session import get_legacy_session
 
 logger = logging.getLogger(__name__)
 
