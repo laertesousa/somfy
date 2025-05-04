@@ -43,3 +43,12 @@ class Status:
             target_id=data['targetID'],
             position=position
         )
+
+@dataclass
+class Device:
+    ip: str
+    mac: str
+
+    @staticmethod
+    def from_data(data: dict):
+        return Device(data['ip'], data['mac'])
